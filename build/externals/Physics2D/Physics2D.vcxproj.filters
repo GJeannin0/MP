@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\src\p2aabb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\src\p2body.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\src\p2collider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\src\p2contact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\src\p2matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\src\p2quadtree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\src\p2shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\src\p2vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\src\p2world.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include\p2aabb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include\p2body.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include\p2collider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include\p2contact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include\p2matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include\p2physics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include\p2quadtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include\p2shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include\p2vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include\p2world.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FD4F5E98-FF82-3558-85DB-CB614CD2B0C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F34107CF-7C73-30C9-80BD-E857D8BCB17D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

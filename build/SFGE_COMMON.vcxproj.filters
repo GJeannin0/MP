@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\audio\audio.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\audio\music.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\audio\sound.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\asset.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\component.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\config.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\entity.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\memory.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\scene.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\system.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\transform2d.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\vector.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\editor\editor.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\editor\editor_info.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\editor\profiler.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\editor\tools_manager.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\graphics\camera.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\graphics\graphics2d.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\graphics\shape2d.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\graphics\sprite2d.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\graphics\texture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\input\input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\physics\body2d.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\physics\collider2d.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\physics\physics2d.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\python\pysystem.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\python\python_engine.cpp">
+      <Filter>Python</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\utility\file_utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\utility\json_utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\utility\log.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\utility\python_utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\utility\singleton.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\utility\time_utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\src\planet_system.cpp">
+      <Filter>Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\src\python_extensions.cpp">
+      <Filter>Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\tools\tools_pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\audio\audio.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\audio\music.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\audio\sound.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\asset.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\component.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\config.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\entity.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\globals.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\memory.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\scene.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\system.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\transform2d.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\vector.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\editor\editor.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\editor\editor_info.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\editor\profiler.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\editor\tools_manager.h">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\graphics\camera.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\graphics\graphics2d.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\graphics\shape2d.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\graphics\sprite2d.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\graphics\texture.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\input\input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\physics\body2d.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\physics\collider2d.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\physics\physics2d.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\python\pysystem.h">
+      <Filter>Python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\python\python_engine.h">
+      <Filter>Python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\utility\file_utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\utility\json_utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\utility\log.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\utility\python_utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\utility\singleton.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\utility\time_utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\include\extensions\planet_system.h">
+      <Filter>Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\include\extensions\python_extensions.h">
+      <Filter>Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\tools\tools_pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\scripts\contact_debug_system.py">
+      <Filter>PySystems Scripts</Filter>
+    </None>
+    <None Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\scripts\mouse_raycast_system.py">
+      <Filter>PySystems Scripts</Filter>
+    </None>
+    <None Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\scripts\planet_system.py">
+      <Filter>PySystems Scripts</Filter>
+    </None>
+    <None Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\scripts\stay_onscreen_system.py">
+      <Filter>PySystems Scripts</Filter>
+    </None>
+    <None Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\scripts\vector_system.py">
+      <Filter>PySystems Scripts</Filter>
+    </None>
+    <None Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\SFGE.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{EACD188E-3D47-33FF-B7CD-C88ED05F4C10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{3AA85DC9-324F-3C00-BCBA-AE456FC2EB8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{63945521-5910-33AC-82AC-E01D19B00306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extensions">
+      <UniqueIdentifier>{9FF5C86F-1CFD-3F27-BEA7-20131D1E85EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{E5EB22A9-1686-3438-ADE2-EC26851CB947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FD4F5E98-FF82-3558-85DB-CB614CD2B0C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{9AEF5E42-F832-3BEA-A6FE-EB9B00CC77A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{D865729F-8CE1-3F2E-83D7-A1087F84D242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PySystems Scripts">
+      <UniqueIdentifier>{EB0609E1-BDA2-3382-865C-8947F21D4645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Python">
+      <UniqueIdentifier>{50700FF8-7270-3BA1-9F22-C20800036C1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F34107CF-7C73-30C9-80BD-E857D8BCB17D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{4C6C29B2-C54A-3787-96B4-C33736BDECC0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

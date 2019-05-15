@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7AF8439B-422F-3C0B-A91E-6FDFB8BD248E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>SFGE_COMMON</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SFGE_COMMON.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SFGE_COMMON</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SFGE_COMMON.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SFGE_COMMON</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SFGE_COMMON.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SFGE_COMMON</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SFGE_COMMON.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SFGE_COMMON</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Guillaume\Desktop\MP\MP\SFGE\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\src;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\extlibs\headers;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\googletest\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui-sfml;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glew\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glm;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\pybind11\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\utilities;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Remotery;C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\tools\ToolTest\include;C:\Users\Guillaume\AppData\Local\Programs\Python\Python37\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NOMINMAX;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NOMINMAX;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Guillaume\Desktop\MP\MP\SFGE\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\src;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\extlibs\headers;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\googletest\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui-sfml;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glew\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glm;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\pybind11\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\utilities;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Remotery;C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\tools\ToolTest\include;C:\Users\Guillaume\AppData\Local\Programs\Python\Python37\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Guillaume\Desktop\MP\MP\SFGE\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\src;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\extlibs\headers;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\googletest\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui-sfml;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glew\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glm;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\pybind11\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\utilities;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Remotery;C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\tools\ToolTest\include;C:\Users\Guillaume\AppData\Local\Programs\Python\Python37\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Guillaume\Desktop\MP\MP\SFGE\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\src;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\extlibs\headers;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\googletest\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui-sfml;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glew\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glm;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\pybind11\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\utilities;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Remotery;C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\tools\ToolTest\include;C:\Users\Guillaume\AppData\Local\Programs\Python\Python37\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Guillaume\Desktop\MP\MP\SFGE\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\src;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\extlibs\headers;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\googletest\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui-sfml;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glew\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glm;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\pybind11\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\utilities;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Remotery;C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\tools\ToolTest\include;C:\Users\Guillaume\AppData\Local\Programs\Python\Python37\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Guillaume\Desktop\MP\MP\SFGE\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\src;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\extlibs\headers;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\googletest\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui-sfml;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glew\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glm;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\pybind11\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\utilities;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Remotery;C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\tools\ToolTest\include;C:\Users\Guillaume\AppData\Local\Programs\Python\Python37\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Guillaume\Desktop\MP\MP\SFGE\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\src;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\extlibs\headers;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\googletest\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui-sfml;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glew\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glm;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\pybind11\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\utilities;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Remotery;C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\tools\ToolTest\include;C:\Users\Guillaume\AppData\Local\Programs\Python\Python37\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Guillaume\Desktop\MP\MP\SFGE\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\src;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\extlibs\headers;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\googletest\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui-sfml;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glew\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glm;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\pybind11\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\utilities;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Remotery;C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\tools\ToolTest\include;C:\Users\Guillaume\AppData\Local\Programs\Python\Python37\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Guillaume\Desktop\MP\MP\SFGE\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\src;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\extlibs\headers;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\googletest\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui-sfml;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glew\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glm;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\pybind11\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\utilities;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Remotery;C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\tools\ToolTest\include;C:\Users\Guillaume\AppData\Local\Programs\Python\Python37\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Guillaume\Desktop\MP\MP\SFGE\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\src;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\extlibs\headers;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\googletest\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui-sfml;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glew\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glm;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\pybind11\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\utilities;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Remotery;C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\tools\ToolTest\include;C:\Users\Guillaume\AppData\Local\Programs\Python\Python37\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NOMINMAX;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Guillaume\Desktop\MP\MP\SFGE\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\src;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\extlibs\headers;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\googletest\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui-sfml;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glew\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glm;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\pybind11\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\utilities;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Remotery;C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\tools\ToolTest\include;C:\Users\Guillaume\AppData\Local\Programs\Python\Python37\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Guillaume\Desktop\MP\MP\SFGE\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\src;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\SFML\extlibs\headers;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\googletest\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\imgui-sfml;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glew\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\glm;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Physics2D\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\pybind11\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\utilities;C:\Users\Guillaume\Desktop\MP\MP\SFGE\externals\Remotery;C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\include;C:\Users\Guillaume\Desktop\MP\MP\SFGE\tools\ToolTest\include;C:\Users\Guillaume\AppData\Local\Programs\Python\Python37\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Guillaume/Desktop/MP/MP/SFGE/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Guillaume/Desktop/MP/MP/SFGE -BC:/Users/Guillaume/Desktop/MP/MP/SFGE/build --check-stamp-file C:/Users/Guillaume/Desktop/MP/MP/SFGE/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Guillaume/Desktop/MP/MP/SFGE/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\CMakeLists.txt;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\3.14.3\CMakeCXXCompiler.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\feature_tests.c;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\feature_tests.cxx;C:\Users\Guillaume\Desktop\MP\MP\SFGE\cmake\CheckCXXFeature.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\cmake\CheckCXXStandardLibrary.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\cmake\EnumeratedOption.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\cmake\IntelCompileFeatures.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Guillaume/Desktop/MP/MP/SFGE/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Guillaume/Desktop/MP/MP/SFGE -BC:/Users/Guillaume/Desktop/MP/MP/SFGE/build --check-stamp-file C:/Users/Guillaume/Desktop/MP/MP/SFGE/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Guillaume/Desktop/MP/MP/SFGE/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\CMakeLists.txt;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\3.14.3\CMakeCXXCompiler.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\feature_tests.c;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\feature_tests.cxx;C:\Users\Guillaume\Desktop\MP\MP\SFGE\cmake\CheckCXXFeature.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\cmake\CheckCXXStandardLibrary.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\cmake\EnumeratedOption.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\cmake\IntelCompileFeatures.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Guillaume/Desktop/MP/MP/SFGE/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Guillaume/Desktop/MP/MP/SFGE -BC:/Users/Guillaume/Desktop/MP/MP/SFGE/build --check-stamp-file C:/Users/Guillaume/Desktop/MP/MP/SFGE/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Guillaume/Desktop/MP/MP/SFGE/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\CMakeLists.txt;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\3.14.3\CMakeCXXCompiler.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\feature_tests.c;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\feature_tests.cxx;C:\Users\Guillaume\Desktop\MP\MP\SFGE\cmake\CheckCXXFeature.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\cmake\CheckCXXStandardLibrary.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\cmake\EnumeratedOption.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\cmake\IntelCompileFeatures.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Guillaume/Desktop/MP/MP/SFGE/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Guillaume/Desktop/MP/MP/SFGE -BC:/Users/Guillaume/Desktop/MP/MP/SFGE/build --check-stamp-file C:/Users/Guillaume/Desktop/MP/MP/SFGE/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Guillaume/Desktop/MP/MP/SFGE/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\CMakeLists.txt;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\3.14.3\CMakeCCompiler.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\3.14.3\CMakeCXXCompiler.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\feature_tests.c;C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\feature_tests.cxx;C:\Users\Guillaume\Desktop\MP\MP\SFGE\cmake\CheckCXXFeature.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\cmake\CheckCXXStandardLibrary.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\cmake\EnumeratedOption.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\cmake\IntelCompileFeatures.cmake;C:\Users\Guillaume\Desktop\MP\MP\SFGE\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\audio\audio.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\audio\music.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\audio\sound.h" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\audio\audio.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\audio\music.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\audio\sound.cpp" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\asset.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\component.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\config.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\engine.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\entity.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\globals.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\memory.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\scene.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\system.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\transform2d.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\engine\vector.h" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\asset.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\component.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\config.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\engine.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\entity.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\memory.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\scene.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\system.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\transform2d.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\engine\vector.cpp" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\editor\editor.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\editor\editor_info.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\editor\profiler.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\editor\tools_manager.h" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\editor\editor.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\editor\editor_info.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\editor\profiler.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\editor\tools_manager.cpp" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\graphics\camera.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\graphics\graphics2d.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\graphics\shape2d.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\graphics\sprite2d.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\graphics\texture.h" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\graphics\camera.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\graphics\graphics2d.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\graphics\shape2d.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\graphics\sprite2d.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\graphics\texture.cpp" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\input\input.h" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\input\input.cpp" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\physics\body2d.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\physics\collider2d.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\physics\physics2d.h" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\physics\body2d.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\physics\collider2d.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\physics\physics2d.cpp" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\python\pysystem.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\python\python_engine.h" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\python\pysystem.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\python\python_engine.cpp" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\utility\file_utility.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\utility\json_utility.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\utility\log.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\utility\python_utility.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\utility\singleton.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\utility\time_utility.h" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\utility\file_utility.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\utility\json_utility.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\utility\log.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\utility\python_utility.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\utility\singleton.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\utility\time_utility.cpp" />
+    <None Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\scripts\contact_debug_system.py" />
+    <None Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\scripts\mouse_raycast_system.py" />
+    <None Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\scripts\planet_system.py" />
+    <None Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\scripts\stay_onscreen_system.py" />
+    <None Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\scripts\vector_system.py" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\include\extensions\planet_system.h" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\include\extensions\python_extensions.h" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\src\planet_system.cpp" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\extensions\src\python_extensions.cpp" />
+    <None Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\SFGE.py" />
+    <ClCompile Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\src\tools\tools_pch.cpp" />
+    <ClInclude Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\include\tools\tools_pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Guillaume\Desktop\MP\MP\SFGE\build\ToolTest_library.vcxproj">
+      <Project>{4A39A35D-8E3D-3DF4-9347-F646E366E8C8}</Project>
+      <Name>ToolTest_library</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
